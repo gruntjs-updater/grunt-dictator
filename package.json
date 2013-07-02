@@ -1,0 +1,50 @@
+{
+  "name": "grunt-dictator",
+  "description": "Generic task to generate files for your project in the way you dictate them to be built.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/justspamjustin/grunt-dictator",
+  "author": {
+    "name": "Justin Martin",
+    "email": "justspamjustin@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justspamjustin/grunt-dictator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justspamjustin/grunt-dictator/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/justspamjustin/grunt-dictator/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt": "~0.4.1",
+    "handlebars": "~1.0.10",
+    "fileset": "~0.1.5",
+    "underscore": "~1.4.4"
+  },
+  "dependencies": {
+    "handlebars": "~1.0.10",
+    "fileset": "~0.1.5",
+    "underscore": "~1.4.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
