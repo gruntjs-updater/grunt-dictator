@@ -33,12 +33,8 @@ grunt.initConfig({
 })
 ```
 
-### Options
-
-
 ### Usage Examples
-
-#### Default Options
-
-#### Custom Options
+```
+grunt dictator:itemview --dest=path/to/destination --name=SomeTemplateParameter --param2=AnotherTemplateParameter
+```
 
